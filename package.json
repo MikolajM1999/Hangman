@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "hangman",
   "version": "1.0.0",
   "description": "",
   "main": "input.js",
@@ -7,7 +7,7 @@
     "dev-server": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Mikołaj Malicki",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
