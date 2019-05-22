@@ -1,8 +1,8 @@
 import Hangman from './hangman'
 import getPuzzle from './requests'
 
-const puzzleEl = document.querySelector('#puzzle')
-const guessesEl = document.querySelector('#guesses')
+const puzzleEl = document.getElementById('puzzle')
+const guessesEl = document.getElementById('guesses')
 let game1
 
 window.addEventListener('keypress', (e) => {
@@ -28,6 +28,6 @@ const startGame = async () => {
     render()
 }
 
-document.querySelector('#reset').addEventListener('click', startGame)
+document.getElementById('reset').addEventListener('click', startGame)
 
 startGame()
